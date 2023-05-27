@@ -1,38 +1,74 @@
 /* your code here */
- .footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-    }
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: black;
+	color: white;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 25px;
+}
+.logo-details .logo_name{
+	width: 20%;
+	font-size: 3rem;
+}
+.media-icons{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+.media-icons a{
+	width: 40%;
+	height: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+a .media-item{
+	width: 80%;
+	height: 100%;
+	border-radius: 100px;
+}
 
-    .content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .logo_name {
-      font-weight: bold;
-    }
-
-    .media-icons a {
-      color: #fff;
-      text-decoration: none;
-      margin-right: 10px;
-    }
-
-    .link-boxes {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-    }
-
-    .link-boxes a {
-      color: #fff;
-      text-decoration: none;
-      margin-right: 10px;
-    }
-
-    .bottom-details {
-      margin-top: 20px;
-    }
+.link-boxes{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 25px;
+}
+.link-boxes .link-item h3, a{
+	font-size: 17px;
+	font-weight: lighter;
+}
+.link-boxes .link-item h3{
+	font-size: 22px;
+	padding-bottom: 3px;
+	border-bottom-style: solid;
+	width: 40px;
+}
+.link-item{
+	display: flex;
+	flex-direction: column;
+	margin: 25px 0px;
+}
+.link-item a{
+	line-height: 2rem;
+	text-decoration: none;
+	color: #D8D8D8;
+}
+.bottom-details{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 25px;
+	background-color: #3C4048;
+	color: #D8D8D8;
+}
